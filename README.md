@@ -24,9 +24,9 @@ cd FE-OLP
 
 # Cara Melakukan Push Perubahan
 
-    Setelah melakukan perubahan pada proyek, ikuti langkah-langkah berikut untuk mengirim perubahan tersebut ke repositori GitHub:
+   Setelah melakukan perubahan pada proyek, ikuti langkah-langkah berikut untuk mengirim perubahan tersebut ke repositori GitHub:
     
-    Gunakan perintah berikut untuk melihat perubahan apa saja yang sudah dilakukan pada file proyek:
+   Gunakan perintah berikut untuk melihat perubahan apa saja yang sudah dilakukan pada file proyek:
     
       git status
     
