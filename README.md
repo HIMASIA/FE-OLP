@@ -6,7 +6,7 @@ Ikuti langkah-langkah di bawah ini untuk *clone* repositori ini ke komputer loka
    
 URL repositori ini adalah:
 
-https://github.com/HIMASIA/FE-OLP.git
+      https://github.com/HIMASIA/FE-OLP.git
 
 2. **Buka Terminal atau Git Bash**
 
@@ -16,11 +16,11 @@ jika menggunakan vs code bisa tekan [ctrl + shift + `]
 
 Jalankan perintah berikut untuk menyalin repositori ini ke komputer lokal kamu:
 
-git clone https://github.com/HIMASIA/FE-OLP.git
+      git clone https://github.com/HIMASIA/FE-OLP.git
 
 Setelah proses clone selesai, masuk ke direktori proyek dengan perintah:
 
-cd FE-OLP
+      cd FE-OLP
 
 # Cara Melakukan Push Perubahan
 
@@ -29,17 +29,25 @@ cd FE-OLP
    Gunakan perintah berikut untuk melihat perubahan apa saja yang sudah dilakukan pada file proyek:
     
       git status
-    
-      git checkout -b fitur-baru ----> (fitur-baru = nama branch yang sesuai dengan perubahan ex = modify-nav)
+
+   Buat Branch baru
+   
+      git checkout -b fitur-baru 
+      
+   ----> (fitur-baru = nama branch yang sesuai dengan perubahan ex = modify-nav)
     
       git add .
+
+   Buat keterangan commit yang jelas
     
       git commit -m "Menambahkan fitur baru"
+
+   Push Perubahan yang sudah kamu buat :
     
       git push origin fitur-baru ----> (sesuaikan dengan nama branch yang kamu buat)
 
-# Cara PULL 
-
+   Tarik Jika terjadi konflik 
+   
       git pull origin main
 
 
