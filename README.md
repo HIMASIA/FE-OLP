@@ -44,7 +44,9 @@ Setelah proses clone selesai, masuk ke direktori proyek dengan perintah:
 
    Push Perubahan yang sudah kamu buat :
     
-      git push origin fitur-baru ----> (sesuaikan dengan nama branch yang kamu buat)
+      git push origin fitur-baru
+   
+   ----> (sesuaikan dengan nama branch yang kamu buat)
 
    Tarik Jika terjadi konflik 
    
